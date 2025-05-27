@@ -883,6 +883,10 @@ body.dark-mode .cards-container .card a {
     color: #e0e0e0;
 }
 
+body.dark-mode .cards-container h2 {
+    color: #ffffff;
+}
+
 body.dark-mode .cards-container .card a:hover {
     background: #761862;
     color: #ffffff;
@@ -924,17 +928,8 @@ body.dark-mode .dgdivisor {
     border-image: linear-gradient(to right, transparent, #ffffff, transparent) 60;
 }
 
+
 /* ==========================
    EFEITO DE FADE-IN
 ========================== */
 
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-.show {
-    opacity: 1;
-    transform: translateY(0);
-}
