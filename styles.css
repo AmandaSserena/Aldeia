@@ -147,6 +147,10 @@ nav ul li a:hover {
     transition: background-image 1s ease-in-out;
 }
 
+.banner {
+    transition: background-image 1s ease-in-out;
+}
+
 
 .overlay {
     position: absolute;
@@ -743,16 +747,15 @@ body.dark-mode {
     background-color: #121212;
     color: #f2bed4;
 }
-
 /* Elementos gerais */
-body.dark-mode header,
-body.dark-mode .cards-container,
-body.dark-mode .podcast-section,
-body.dark-mode .depoimentos,
-body.dark-mode .cards-container2,
-body.dark-mode footer {
-    background-color: #1e1e1e;
-}
+    body.dark-mode header,
+    body.dark-mode .cards-container,
+    body.dark-mode .podcast-section,
+    body.dark-mode .depoimentos,
+    body.dark-mode .cards-container2,
+    body.dark-mode footer {
+        background-color: #1e1e1e;
+    }
 
 /* Links do nav */
 body.dark-mode nav ul li a {
@@ -781,10 +784,6 @@ body.dark-mode nav ul li a {
 }
 
 
-
-body.dark-mode .overlay {
-    background: #1e1e1e;
-}
 
 body.dark-mode .btn-contato{
    background: #4b4848;

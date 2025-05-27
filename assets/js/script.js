@@ -44,3 +44,44 @@ function checkFadeIn() {
 // Ativa a função no scroll e no carregamento da página
 window.addEventListener('scroll', checkFadeIn);
 window.addEventListener('load', checkFadeIn);
+
+
+
+// Espera o carregamento completo da página
+window.onload = function() {
+    const banner = document.getElementById("banner");
+    const imagens = [
+        "./assets/img/banner1.webp",   
+        "./assets/img/banner2.webp",
+        "./assets/img/banner3.webp",
+        "./assets/img/banner4.webp",
+    ];
+
+    let indexAtual = 0;
+
+    // Função para atualizar o banner
+    function updateBanner() {
+        banner.style.backgroundImage = `url(${imagens[indexAtual]})`;
+    }
+
+    // Função para voltar uma imagem
+    window.prevSlide = function() {
+        indexAtual = (indexAtual - 1 + imagens.length) % imagens.length;
+        updateBanner();
+    }
+
+    // Função para avançar uma imagem
+    window.nextSlide = function() {
+        indexAtual = (indexAtual + 1) % imagens.length;
+        updateBanner();
+    }
+
+    // Troca automática do banner a cada 5 segundos
+    setInterval(function() {
+        indexAtual = (indexAtual + 1) % imagens.length;
+        updateBanner();
+    }, 5000);
+
+    // Inicializa o banner com a primeira imagem
+    updateBanner();
+};
