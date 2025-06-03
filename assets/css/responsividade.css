@@ -1,0 +1,363 @@
+/* ==========================
+   MODO ESCURO
+========================== */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f2bed4;
+}
+/* Elementos gerais */
+    body.dark-mode header,
+    body.dark-mode .cards-container,
+    body.dark-mode .podcast-section,
+    body.dark-mode .depoimentos,
+    body.dark-mode .cards-container2,
+    body.dark-mode footer {
+        background-color: #1e1e1e;
+    }
+
+/* Links do nav */
+body.dark-mode nav ul li a {
+    color: #f2bed4;
+}
+
+/* Botão de contato */
+body.dark-mode .btn-contato {
+    background: #f2bed4;
+    color: #761862;
+}
+
+body.dark-mode .btn-contato:hover {
+    background-color: #ae2e81;
+    color: #f2bed4;
+}
+
+/* Banner */
+body.dark-mode .banner {
+    background: url('https://i.imgur.com/3Z5k7bH.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+body.dark-mode nav ul li a {
+    color: #ffffff;
+}
+
+
+
+body.dark-mode .btn-contato{
+   background: #4b4848;
+    color: #ffffff;
+}
+
+body.dark-mode .podcast-text  p{
+    color: #ffffff;
+}
+body.dark-mode .podcast-text  h2{
+    color: #ffffff;
+}
+
+body.dark-mode .cards-container2 h2 {
+    color: #ffffff;
+}
+
+
+body.dark-mode .cards-container2 h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .card p {
+    color: #ffffff;
+}
+
+
+body.dark-mode .btn-contato:hover {
+    background-color: #761862;
+    color: #ffffff;
+}
+
+/* Texto do banner */
+
+body.dark-mode .content h1,
+body.dark-mode .content p {
+    color: #f2bed4;
+}
+
+
+
+body.dark-mode .content span {
+    color: #f2bed4;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Marcellus", serif;
+}
+
+
+/* Conteúdo */
+body.dark-mode .content h1,
+body.dark-mode .content p,
+body.dark-mode .content span {
+    color: #ffffff;
+}
+
+/* Setas do carrossel */
+body.dark-mode .setavolta,
+body.dark-mode .setaavanca {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Botão associado */
+body.dark-mode .btn-associado {
+    background: #4b4848;
+    color: #ffffff;
+}
+
+body.dark-mode .btn-associado:hover {
+   background: #761862;
+    color: #ffffff;
+}
+
+body.dark-mode .btn-listen {
+    background: #4b4848;
+    color: #ffffff;
+}
+
+
+/* Cards container */
+body.dark-mode .cards-container .card,
+body.dark-mode .card2 {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .cards-container .card h3,
+body.dark-mode .card2 h4,
+body.dark-mode .card2 p {
+    color: #ffffff;
+}
+
+/* Links dos cards */
+body.dark-mode .cards-container .card a {
+    background: #fffbfd;
+    color: #e0e0e0;
+}
+
+body.dark-mode .cards-container h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .cards-container .card a:hover {
+    background: #761862;
+    color: #ffffff;
+}
+
+/* Podcast */
+body.dark-mode .podcast-text {
+    color: #ffffff;
+}
+
+body.dark-mode .podcast-video iframe {
+    border: 2px solid #ffffff;
+}
+
+/* Footer */
+body.dark-mode footer {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .footer-section ul li a,
+body.dark-mode .social-icons a,
+body.dark-mode .CNPJ {
+    color: #ffffff;
+}
+
+body.dark-mode .social-icons a:hover {
+    color: #e2e2e2;
+}
+
+body.dark-mode .contact-item i {
+    color: #ffffff;
+}
+  
+
+/* Divisor decorativo */
+body.dark-mode .dgdivisor {
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, transparent, #ffffff, transparent) 60;
+}
+
+#toggle-dark-mode {
+    background: transparent; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+#toggle-dark-mode i {
+    color: #761862; 
+    font-size: 24px; 
+}
+
+
+/* ==========================
+   RESPONSIVIDADE
+========================== */
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    nav ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    
+
+    .banner {
+        height: 400px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .podcast-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .podcast-video iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .banner {
+        height: 300px;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .podcast-video iframe {
+        height: 250px;
+    }
+
+    #toggle-dark-mode{
+        position: absolute;
+        top: 30%;
+        right: 16%;
+    }
+
+
+    .menu {
+    display: none; /* escondido inicialmente */
+    position: fixed; /* fixa na tela */
+    left: 110px; 
+    top: 53px;
+    width: 250px;  /* largura do menu */
+    background-color: rgba(0, 0, 0, 0.9); /* fundo escuro semi-transparente */
+    color: white;
+    padding: 15px;
+    z-index: 9999; /* fica acima de quase tudo */
+    overflow-y: auto; /* rolagem se menu for maior que a tela */
+    height: 300px; /* altura do menu */
+}
+
+.menu .btn-contato {
+    margin: 0 auto; /* Centraliza o botão */
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 15px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+}
+
+@media (max-width: 1024px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .podcast-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .podcast-video iframe {
+        height: 350px;
+    }
+}
+
+
+

@@ -85,3 +85,20 @@ window.onload = function() {
     // Inicializa o banner com a primeira imagem
     updateBanner();
 };
+
+const menuToggle = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+
+menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+     document.body.classList.toggle('no-scroll');
+});
+
+
+
+function voltarAoTopo() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
