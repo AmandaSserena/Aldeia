@@ -3,8 +3,8 @@
 ========================== */
 
 body.dark-mode {
-    background-color: #121212;
-    color: #f2bed4;
+    background-color: #1e1e1e;
+    color: #ffffff;
 }
 /* Elementos gerais */
     body.dark-mode header,
@@ -69,13 +69,71 @@ body.dark-mode .card p {
     color: #ffffff;
 }
 
+body.dark-mode .chamada-socio h2,
+body.dark-mode .chamada-socio p {
+    color: #ffffff;
+    
+}
 
-body.dark-mode .btn-contato:hover {
-    background-color: #761862;
+.dark-mode .chamada-socio  {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .btn-voltar {
+    background: #4b4848;
     color: #ffffff;
 }
 
-/* Texto do banner */
+body.dark-mode::-webkit-scrollbar {
+  width: 12px;
+  background-color: #1a1a1a;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #444);
+  border-radius: 50px;
+  border: 0 solid #000;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #888);
+}
+
+body.dark-mode .thumb {
+    background: linear-gradient(transparent, #444);
+    border: 0 solid #000;
+}
+
+body.dark-mode #img-grande {
+    border: 2px solid #ffffff;
+}
+
+body.dark-mode .seta{
+    color: #ffffff;
+}
+
+body.dark-mode .coração {
+    color: #ffffff;
+}
+
+body.dark-mode .coração.curtiu {
+    color: #4b4848;
+}
+
+
+body.dark-mode .btn-contato:hover {
+       background: #4b4848;
+    color: #ffffff;
+}
+
+body.dark-mode .contador {
+    color: #ffffff;
+}
+
+.dark-mode #toggle-dark-mode i {
+    color: #ffffff; 
+}
+
 
 body.dark-mode .content h1,
 body.dark-mode .content p {
@@ -92,14 +150,12 @@ body.dark-mode .content span {
 }
 
 
-/* Conteúdo */
 body.dark-mode .content h1,
 body.dark-mode .content p,
 body.dark-mode .content span {
     color: #ffffff;
 }
 
-/* Setas do carrossel */
 body.dark-mode .setavolta,
 body.dark-mode .setaavanca {
     background: rgba(255, 255, 255, 0.2);
@@ -113,7 +169,7 @@ body.dark-mode .btn-associado {
 }
 
 body.dark-mode .btn-associado:hover {
-   background: #761862;
+      background: #4b4848;
     color: #ffffff;
 }
 
@@ -186,6 +242,82 @@ body.dark-mode .dgdivisor {
     border-image: linear-gradient(to right, transparent, #ffffff, transparent) 60;
 }
 
+.dark-mode .estatuto-section {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode #estatuto h2 {
+    color: #000000;
+}
+
+.dark-mode .botao-baixar {
+    background: #4b4848;
+    color: #ffffff;
+}
+
+.dark-mode #estatuto p {
+    color: #000000;
+}
+
+
+.dark-mode .sobre2 .container {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .sobre2 {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .sobre2 p {
+    color: #ffffff;
+}
+
+.dark-mode .sobre2 h1 {
+    color: #ffffff;
+}
+
+.dark-mode .galeria {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .galeria-section {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .galeria-section h2 {
+    color: #ffffff;
+}
+
+.dark-mode .content-sobre span {
+    color: #ffffff;
+}
+
+
+
+.dark-mode .galeria-section .card2 {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .galeria-section  h4,
+.dark-mode .galeria-section  p {
+    color: #ffffff;
+}
+
+dark-mode .coração i {
+    color: #ffffff;
+}
+
+dark-mode .coração .curtir {
+    color: #6e6b6b;
+}
+
+
+
 #toggle-dark-mode {
     background: transparent; 
     border: none; 
@@ -221,10 +353,6 @@ body.dark-mode .dgdivisor {
         margin-top: 10px;
     }
 
-    .menu-toggle {
-        display: flex;
-    }
-
     
 
     .banner {
@@ -252,7 +380,99 @@ body.dark-mode .dgdivisor {
     .podcast-video iframe {
         height: 300px;
     }
+
+     .sobre2 .container {
+        align-items: center; 
+        flex-direction: column; 
+        margin-left: 0; 
+    }
+
+
+     section .card2 {
+        width: 90%; 
+        max-width: 400px; 
+        margin-bottom: 20px; 
+ }
+
+    
+    .sobre2 .container-sobre, 
+    .sobre2 .image {
+        flex: 1 1 100%;
+        margin: 0 auto; 
+        padding: 0;
+    }
+    
+    .sobre2 .image img {
+        max-width: 100%; 
+    }
+
+
+#galeria7 {
+    height: 150px;
 }
+    .galeria-section {
+        padding: 20px;
+    }
+    
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    }
+    
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu-toggle i {
+        margin-top: 25px;
+        margin-right: 80px;
+        font-size: 18px;
+    }
+
+
+        .menu {
+    display: none; 
+    position: fixed; 
+    left: 160px; 
+    top: 63px;
+    width: 250px;  
+    background-color: rgba(0, 0, 0, 0.9); 
+    color: white;
+    padding: 15px;
+    z-index: 9999; 
+    overflow-y: auto; 
+    height: 300px;
+}
+
+.menu .btn-contato {
+    margin: 0 auto;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 16px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+}
+
 
 @media (max-width: 480px) {
     header .container {
@@ -272,6 +492,12 @@ body.dark-mode .dgdivisor {
 
     .menu-toggle {
         display: flex;
+    }
+
+    .menu-toggle i {
+        margin-top: 25px;
+        margin-right: 60px;
+        font-size: 18px;
     }
 
     .banner {
@@ -297,27 +523,27 @@ body.dark-mode .dgdivisor {
 
     #toggle-dark-mode{
         position: absolute;
-        top: 30%;
+        top: 90%;
         right: 16%;
     }
 
 
     .menu {
-    display: none; /* escondido inicialmente */
-    position: fixed; /* fixa na tela */
-    left: 110px; 
-    top: 53px;
-    width: 250px;  /* largura do menu */
-    background-color: rgba(0, 0, 0, 0.9); /* fundo escuro semi-transparente */
+    display: none; 
+    position: fixed; 
+    left: 160px; 
+    top: 63px;
+    width: 250px;  
+    background-color: rgba(0, 0, 0, 0.9); 
     color: white;
     padding: 15px;
-    z-index: 9999; /* fica acima de quase tudo */
-    overflow-y: auto; /* rolagem se menu for maior que a tela */
-    height: 300px; /* altura do menu */
+    z-index: 9999; 
+    overflow-y: auto; 
+    height: 300px;
 }
 
 .menu .btn-contato {
-    margin: 0 auto; /* Centraliza o botão */
+    margin: 0 auto;
 }
 
 .menu.active {
@@ -330,7 +556,7 @@ body.dark-mode .dgdivisor {
 }
 
 .menu ul li {
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
 .menu ul li a {
@@ -357,6 +583,42 @@ body.dark-mode .dgdivisor {
     .podcast-video iframe {
         height: 350px;
     }
+
+    .cards-container2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .cards-container2 .card2 {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px;
+    }
+
+     .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .cards-container .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px;
+    }
+
+    #toggle-dark-mode{
+        position: absolute;
+        top: 40%;
+        right: 6%;
+    }
+
+
 }
 
 

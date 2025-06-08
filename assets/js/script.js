@@ -102,3 +102,132 @@ function voltarAoTopo() {
         behavior: 'smooth'
       });
     }
+
+
+
+    // Galeria de Imagens
+
+    const modal = document.getElementById("modal");
+const modalImg = document.getElementById("img-grande");
+const descricao = document.getElementById("descricao");
+const imagens = document.querySelectorAll(".thumb");
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+const fechar = document.querySelector('.fechar');
+
+let indexAtual = 0;
+
+imagens.forEach((img, index) => {
+    img.addEventListener("click", function() {
+        modal.style.display = "flex";
+        indexAtual = index;
+        mostrarImagem(indexAtual);
+    });
+});
+
+function mostrarImagem(index) {
+    modalImg.classList.add('deslizando');
+    setTimeout(() => {
+        modalImg.src = imagens[index].src;
+        descricao.innerText = imagens[index].alt;
+        modalImg.classList.remove('deslizando');
+    }, 300);
+}
+
+prevBtn.addEventListener('click', () => {
+    indexAtual = (indexAtual - 1 + imagens.length) % imagens.length;
+    mostrarImagem(indexAtual);
+});
+
+nextBtn.addEventListener('click', () => {
+    indexAtual = (indexAtual + 1) % imagens.length;
+    mostrarImagem(indexAtual);
+});
+
+fechar.addEventListener("click", function() {
+    modal.style.display = "none";
+});
+
+modal.addEventListener("click", function(e) {
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+});
+
+// Teclado: ←, →, ESC
+document.addEventListener('keydown', function(e) {
+    if(modal.style.display === "flex") {
+        if (e.key === "ArrowLeft") {
+            indexAtual = (indexAtual - 1 + imagens.length) % imagens.length;
+            mostrarImagem(indexAtual);
+        } else if (e.key === "ArrowRight") {
+            indexAtual = (indexAtual + 1) % imagens.length;
+            mostrarImagem(indexAtual);
+        } else if (e.key === "Escape") {
+            modal.style.display = "none";
+        }
+    }
+});
+
+
+
+
+
+const coracao = document.querySelector('.coração');
+const contador = document.querySelector('.contador');
+// modalImg já foi declarado anteriormente
+
+function getImageKey() {
+    return 'curtido_' + modalImg.src;
+}
+
+function getCountKey() {
+    return 'count_' + modalImg.src;
+}
+
+// Atualiza visualmente
+function updateCurtida() {
+    const key = getImageKey();
+    const countKey = getCountKey();
+    
+    const curtido = localStorage.getItem(key) === 'true';
+    const count = localStorage.getItem(countKey) || 0;
+    
+    if (curtido) {
+        coracao.classList.add('curtiu');
+    } else {
+        coracao.classList.remove('curtiu');
+    }
+    contador.textContent = count;
+}
+
+// Quando abrir imagem
+modalImg.addEventListener('load', updateCurtida);
+
+// Clique para curtir
+coracao.addEventListener('click', function() {
+    const key = getImageKey();
+    const countKey = getCountKey();
+    
+    let count = parseInt(localStorage.getItem(countKey)) || 0;
+    
+    if (coracao.classList.contains('curtiu')) {
+        // Descurtindo
+        coracao.classList.remove('curtiu');
+        localStorage.removeItem(key);
+        count = Math.max(0, count - 1);
+    } else {
+        // Curtindo
+        coracao.classList.add('curtiu');
+        localStorage.setItem(key, 'true');
+        count++;
+    }
+    
+    localStorage.setItem(countKey, count);
+    contador.textContent = count;
+
+    // Animação pulse
+    coracao.classList.add('pulse');
+    setTimeout(() => coracao.classList.remove('pulse'), 600);
+});
+

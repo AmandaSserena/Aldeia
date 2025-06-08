@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Aldeia Mães Atípicas</title>
+    <link rel="stylesheet" href="../css/sobre.css">
+    <link rel="stylesheet" href="../css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <img src="../img/logo.webp" alt="logo" class="logo">
+
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+
+            <nav id="menu" class="menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="../html/sobre.html">Sobre</a></li>
+                    <li><a href="../html/contato.html">Contato</a></li>
+                    <li><a href="https://contate.me/ios/somosaldeia" class="btn-contato">Fale Conosco</a></li>
+                </ul>
+            </nav>
+
+            <button id="toggle-dark-mode">
+                <i class="fa fa-moon"></i>
+            </button>
+
+        </div>
+    </header>
+
+    <div class="banner-sobre" id="banner-sobre">
+        <div class="overlay-sobre"></div>
+        <div class="content-sobre">
+            <h1 class="fade-in">Sobre à <span> Somos Aldeia</span></h1>
+            <p class="fade-in">Apoio para mães atípicas do município de Torres e região.</p>
+            <a href="https://contate.me/ios/somosaldeia" class="btn-associado fade-in">Seja Associada</a>
+        </div>
+    </div>
+
+    <div class="dgdivisor"></div>
+
+    <!-- Estatuto -->
+    <section class="estatuto-section">
+        <div id="estatuto">
+            <h2>Estatuto da Associação Instituto Somos Aldeia</h2>
+            <p>
+                A Associação Instituto Somos Aldeia - Grupo de Mães Atípicas é uma entidade civil, filantrópica, sem
+                fins
+                lucrativos, localizada em Torres, RS. Seu foco está no apoio a mães e pessoas com deficiência ou
+                atipias,
+                oferecendo suporte psicológico, orientação sobre direitos, reabilitação e inclusão social. Atua na
+                melhoria
+                da qualidade de vida dessas pessoas e suas famílias, promovendo serviços gratuitos, campanhas de
+                conscientização e atividades sociais. O Instituto tem autonomia administrativa e financeira, rege-se por
+                um
+                estatuto e regimento interno, e busca fortalecer vínculos comunitários e garantir a cidadania plena para
+                seus associados.
+            </p>
+            <div class="botao-baixar-container ">
+                <a href="../PDF/DA ASSOCIAÇÃO E SEUS FINS.pdf" download class="botao-baixar fade-in">
+                    Baixar Estatuto Completo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="dgdivisor"></div>
+
+    <!-- Sobre nós -->
+    <section class="sobre2">
+        <div class="container">
+            <div class="image  fade-in">
+                <img src="../img/banner3.webp" alt="Imagem de mães e crianças">
+            </div>
+            <div class="container-sobre  fade-in">
+                <h1 class="fade-in">Nossa Missão</h1>
+
+                <div class="missao fade-in">
+                    <p>Oferecer acolhimento, apoio e orientação às mães atípicas e às pessoas com deficiência,
+                        promovendo inclusão, respeito, autonomia e qualidade de vida. Construir uma rede de apoio
+                        sólida, baseada na confiança, no afeto e na defesa de direitos, contribuindo para uma sociedade
+                        mais justa e empática..</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="dgdivisor"></div>
+
+
+
+    <div class="dgdivisor"></div>
+
+
+
+    <button class="btn-voltar" onclick="voltarAoTopo()">↑</button>
+
+
+    <div class="dgdivisor"></div>
+
+    <section class="galeria-section">
+        <h2 class="fade-in">Galeria de Fotos</h2>
+        <p class="fade-in">Confira alguns momentos especiais do nosso grupo!</p>
+        <div class="galeria">
+            <img src="../img/galeria1.webp" alt="Encontro do noso grupo" class="thumb fade-in">
+            <img src="../img/galeria4.webp" alt="Foto 2" class="thumb fade-in">
+            <img src="../img/galeria3.webp" alt="Foto 3" class="thumb fade-in">
+            <img src="../img/galeria5.webp" alt="Foto 4" class="thumb fade-in">
+            <img src="../img/galeria6.webp" alt="Foto 5" class="thumb fade-in">
+            <img src="../img/galeria9.webp" alt="Foto 6" class="thumb fade-in">
+            <img src="../img/galeria8.webp" alt="Foto 7" class="thumb fade-in">
+            <img src="../img/galeria10.webp" alt="Foto 8" class="thumb fade-in">
+            <img src="../img/galeria7.webp" alt="Foto 9" id="galeria7" class="thumb fade-in">
+
+        </div>
+    </section>
+
+
+    <div id="modal">
+        <span class="fechar">&times;</span>
+        <button class="prev seta">&#10094;</button>
+        <img id="img-grande">
+        <button class="next seta">&#10095;</button>
+        <div class="descricao-curtir">
+            <p id="descricao"></p>
+            <i class="coração">&#10084;</i>
+            <span class="contador">0</span>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="dgdivisor"></div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section-logo">
+                <img class="fade-in" src="../img/logo.webp" alt="Aldeia Logo">
+                <p class="fade-in" class="CNPJ">CNPJ:53.779.346/0001-04</p>
+            </div>
+
+            <div class="footer-section">
+                <h2 class="fade-in">Contato</h2>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p class="fade-in">(51) 98192-3097
+                    </p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p class="fade-in">institutosomosaldeia@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="fade-in">Redes Sociais</h3>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/@institutosomosaldeia" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://contate.me/ios/somosaldeia"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/institutosomosaldeia/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="fade-in">&copy; 2025 Aldeia Mães Atípicas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
