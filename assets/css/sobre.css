@@ -257,6 +257,7 @@
  .btn-associado:hover {
      background: #f2bed4;
      color: #761862;
+     text-decoration: none;
  }
 
 
@@ -310,6 +311,8 @@
 
 .botao-baixar:hover {
   background-color: #f2bed4;
+    color: #761862;
+  text-decoration: none;
 }
 
 
@@ -733,4 +736,5 @@
 
     .btn-voltar:hover {
       background-color: #a0227e;
+      
     }

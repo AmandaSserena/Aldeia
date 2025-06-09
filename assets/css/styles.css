@@ -285,13 +285,15 @@
      height: 42px;
      margin: 0 auto;
      font-family: poppins, sans-serif;
-     font-size: 15px;
+     font-size: 14px;
      font-weight: 500;
+
  }
 
  .btn-associado:hover {
      background: #f2bed4;
      color: #761862;
+     text-decoration: none;
  }
 
 
@@ -551,32 +553,32 @@
  }
 
 
-    /* ==========================
+ /* ==========================
         chamada
 ========================== */
 
-    .chamada-socio {
-        padding: 50px;
-        text-align: center;
-        margin: 20px auto;
-        max-width: 800px;
-        border-radius: 10px;
-    }
+ .chamada-socio {
+     padding: 50px;
+     text-align: center;
+     margin: 20px auto;
+     max-width: 800px;
+     border-radius: 10px;
+ }
 
-    .chamada-socio h2 {
-            font-family: "Marcellus", serif;
-            font-size: 30px;
-            color: #761862;
-            margin-bottom: 10px;
-        }
+ .chamada-socio h2 {
+     font-family: "Marcellus", serif;
+     font-size: 30px;
+     color: #761862;
+     margin-bottom: 10px;
+ }
 
-    .chamada-socio p {
-            color: #333;
-            font-family: poppins, sans-serif;
-            font-size: 1rem;
-            margin-bottom: 40px;
-            line-height: 1.5;
-        }
+ .chamada-socio p {
+     color: #333;
+     font-family: poppins, sans-serif;
+     font-size: 1rem;
+     margin-bottom: 40px;
+     line-height: 1.5;
+ }
 
 
 
@@ -753,25 +755,25 @@
  }
 
  .btn-voltar {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 50px;
-      height: 50px;
-      background-color: #761862;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-      transition: background-color 0.3s ease;
-      z-index: 9999;
-    }
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 50px;
+     height: 50px;
+     background-color: #761862;
+     color: white;
+     border: none;
+     border-radius: 50%;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+     transition: background-color 0.3s ease;
+     z-index: 9999;
+ }
 
-    .btn-voltar:hover {
-      background-color: #a0227e;
-    }
+ .btn-voltar:hover {
+     background-color: #a0227e;
+ }

@@ -184,10 +184,12 @@ section {
       text-decoration: none;
       top: 50px;
       position: relative;
+      text-decoration: none;
     }
 
     .btn-associar:hover {
       background-color: #a3257a;
+      text-decoration: none;
     }
 
 
