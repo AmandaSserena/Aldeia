@@ -464,7 +464,8 @@
 
  .btn-listen:hover {
      background-color: #f2bed4;
-     color: #ffffff;
+     color: #761862;
+     text-decoration: none;
  }
 
  .podcast-video {

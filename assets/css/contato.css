@@ -146,13 +146,11 @@ section {
     }
 
     .banner-contato {
-      background: url('../img/banner-contato.jpg') no-repeat center center/cover;
       height: 400px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-shadow: 2px 2px 4px rgba(162, 6, 105, 0.5);
     }
 
     

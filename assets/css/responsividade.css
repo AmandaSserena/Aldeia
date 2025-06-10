@@ -237,6 +237,28 @@ body.dark-mode .contact-item i {
     color: #ffffff;
 }
 
+ .dark-mode .menu-toggle {
+        color: #ffffff;
+    }
+
+.dark-mode  .banner-contato h1{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.dark-mode  .banner-contato p {
+    color: #ffffff;
+}
+
+
+.dark-mode  .banner-contato {
+    padding: 3%;
+}
+
+.dark-mode .btn-associar {
+    background: #4b4848;
+    color: #ffffff;
+}
 
 /* Divisor decorativo */
 body.dark-mode .dgdivisor {
@@ -250,7 +272,15 @@ body.dark-mode .dgdivisor {
 }
 
 .dark-mode #estatuto h2 {
-    color: #000000;
+    color: #ffffff;
+}
+
+.dark-mode .estatuto-section #estatuto p {
+    color: #ffffff;
+}
+
+.dark-mode #estatuto  {
+    background: #1e1e1e;
 }
 
 .dark-mode .botao-baixar {
@@ -445,8 +475,8 @@ dark-mode .coração .curtir {
     .menu {
         display: none;
         position: fixed;
-        left: 160px;
-        top: 63px;
+        left: 500px;
+        top: 70px;
         width: 250px;
         background-color: rgba(0, 0, 0, 0.9);
         color: white;
@@ -538,13 +568,21 @@ dark-mode .coração .curtir {
         right: 16%;
     }
 
+    .banner-contato {
+    padding: 3%;
+}
+
+    .banner-contato h1 {
+        font-size: 35px;
+    }
+
 
     .menu {
         display: none;
         position: fixed;
         left: 160px;
         top: 63px;
-        width: 250px;
+        width: 200px;
         background-color: rgba(0, 0, 0, 0.9);
         color: white;
         padding: 15px;
