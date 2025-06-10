@@ -545,12 +545,24 @@ dark-mode .coração .curtir {
         height: 300px;
     }
 
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content span {
+        font-size: 24px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
     .content h1 {
         font-size: 20px;
     }
 
     .content p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .cards-container {
@@ -558,9 +570,38 @@ dark-mode .coração .curtir {
         align-items: center;
     }
 
+       .cards-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;    
+    }
+
+    .cards-container .card p{
+        font-size: 14px;
+    }
+
+     .cards-container .card h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+     }
+
+     .cards-container .card img{
+        width: 20%;
+        height: auto;
+     }
+
     .podcast-video iframe {
         height: 250px;
     }
+
+    .podcast-section h2 {
+        font-size: 24px;
+    }
+
+    .podcast-section p {
+        font-size: 14px;
+    }
+
+
 
     #toggle-dark-mode {
         position: absolute;
