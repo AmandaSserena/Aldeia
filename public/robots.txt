@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://institutosomosaldeia.vercel.app/sitemap.xml

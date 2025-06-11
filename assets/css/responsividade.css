@@ -519,6 +519,7 @@ dark-mode .coração .curtir {
     header .container {
         flex-direction: column;
         align-items: center;
+        height: 30px;
     }
 
     nav ul {
@@ -536,9 +537,9 @@ dark-mode .coração .curtir {
     }
 
     .menu-toggle i {
-        margin-top: 25px;
+        margin-top: 2px;
         margin-right: 60px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .banner {
@@ -547,6 +548,11 @@ dark-mode .coração .curtir {
 
     .banner img {
         width: 100%;
+        height: auto;
+    }
+
+    header .logo {
+        width: 80px;
         height: auto;
     }
 
@@ -617,19 +623,21 @@ dark-mode .coração .curtir {
         font-size: 35px;
     }
 
+}
+
 
     .menu {
         display: none;
         position: fixed;
-        left: 160px;
-        top: 63px;
-        width: 200px;
+        left: 35%;
+        top: 70px;
+        width: 250px;
         background-color: rgba(0, 0, 0, 0.9);
         color: white;
         padding: 15px;
         z-index: 9999;
         overflow-y: auto;
-        height: 300px;
+        height: 310px;
     }
 
     .menu .btn-contato {
@@ -647,17 +655,182 @@ dark-mode .coração .curtir {
 
     .menu ul li {
         margin: 16px 0;
+        text-align: center;
     }
 
     .menu ul li a {
         color: white;
+        font-size: 15px;
         text-decoration: none;
     }
 
     .no-scroll {
         overflow: hidden;
     }
+
+.banner-sobre {
+    height: 300px;
 }
+
+.content-sobre h1{
+    font-size: 24px;
+}
+
+.content-sobre h1 span {
+    font-size: 24px;
+}
+
+.content-sobre p {
+    font-size: 16px;
+}
+
+ .btn-associado {
+   font-size: 13px;
+    padding: 8px 16px;
+    width: 150px;
+    height: 35px;
+    margin: 0 auto;
+ }
+
+ #estatuto h2 {
+    font-size: 24px;
+ }
+
+
+ .estatuto-section {
+    padding: 20px;
+    background: #f2bed4;
+}
+
+#estatuto p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#estatuto h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+ .botao-baixar {
+    font-size: 14px;
+    padding: 8px 16px;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.sobre2 {
+    padding: 20px;
+}
+
+.sobre2 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre2 .container-sobre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre2 .container-sobre h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sobre2 .container-sobre p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.sobre2 .image {
+    width: 100%;
+    max-width: 600px;
+}
+
+.sobre2 .image img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria-section{
+    padding: 20px;
+    background: #f2bed4;
+}
+
+.galeria-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.galeria-section .card2 {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.galeria-section h4,
+.galeria-section p {
+    color: #761862;
+    font-size: 14px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.cards-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.footer-section-logo img {
+    max-width: 130px;
+}
+
+.footer-section-logo p {
+    margin-left: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: "Marcellus", serif;
+}
+
+.footer-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+.footer-section  i {
+    color: #761862;
+    font-size: 20px;
+}
+
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: "Marcellus", serif;
+    
+}
+
+
 
 @media (max-width: 1024px) {
     .cards-container {
@@ -707,6 +880,4 @@ dark-mode .coração .curtir {
         top: 40%;
         right: 3%;
     }
-
-
 }
