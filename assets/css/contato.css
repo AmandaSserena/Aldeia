@@ -133,84 +133,89 @@
      transform: rotate(-45deg) translate(5px, -5px);
  }
 
-  .dgdivisor {
-     border-top: 2px solid;
-     border-image: linear-gradient(to right, transparent, #761862, transparent) 60;
-     width: 100%;
- }
+/* Estilos gerais da seção de contato */
+.banner-contato {
+  position: relative;
+  background: linear-gradient(to bottom right, #db2a74, #ab4b74, #f8e1ec);
+  padding: 80px 20px;
+  text-align: center;
+  overflow: hidden;
+  color: #761862;
+}
 
-section {
-    padding: 60px 0;
-     background: #f2bed4;
-     color: #761862;
-    }
+.overlay-contato {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
 
-    .banner-contato {
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+.content-contato {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-    
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-        font-family: 'Marcellus', serif;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #761862;
-    }
+.content-contato h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #761862;
+    font-family: "Marcellus", serif;
+}
 
-    p {
-      font-size: 1.2rem;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
+.content-contato p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #761862;
+    font-family: poppins, sans-serif;
+}
 
-    .btn-associar {
-      background-color: #761862;
-      color: white;
-      padding: 15px 30px;
-      font-size: 1.2rem;
-      border: none;
-      border-radius: 30px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-      text-decoration: none;
-      top: 50px;
-      position: relative;
-      text-decoration: none;
-    }
+.content-contato ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
 
-    .btn-associar:hover {
-      background-color: #a3257a;
-      text-decoration: none;
-    }
+.content-contato ul li {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #761862;
+}
 
-    ul {
-      list-style: none; 
-      padding: 0; 
-      color: #761862; 
-      font-size: 1rem; 
-      margin-top: 30px;
-        font-family: 'Poppins', sans-serif;
-    }
+.content-contato a {
+  color: #ba2966;
+  text-decoration: none;
+}
+
+.content-contato a:hover {
+  text-decoration: none;
+}
+
+/* Botão personalizado */
+.btn-associar {
+  display: inline-block;
+  background-color: hsl(327, 40%, 74%);
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  margin-top: 10px;
+}
 
 
-    ul li {
-      color: #761862; 
-      text-decoration: none;
-    }
 
-    ul li a {
-      color: #a3257a; 
-      text-decoration: none; 
-      font-weight: bold; 
-      transition: color 0.3s ease;
-    }
+.btn-associar:hover {
+  background-color: #a3257a;
+    color: #f2bed4;
+    text-decoration: none;
+}
+
+
 
     /* ==========================
     BANNER
@@ -221,7 +226,7 @@ section {
     background-image: url(../img/galeria9.webp);
      position: relative;
      width: 100%;
-     height: 500px;
+     height: 600px;
      background-size: cover;
      background-position: center;
      transition: background-image 1s ease-in-out;
