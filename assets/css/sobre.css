@@ -141,7 +141,7 @@
 
 
  .banner-sobre {
-        background-image: url(../img/galeria6.webp);
+        background-image: url(../img/galeria6.webp) rel="preload";
      position: relative;
      width: 100%;
      height: 600px;
