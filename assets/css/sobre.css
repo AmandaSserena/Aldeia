@@ -739,3 +739,11 @@
       background-color: #a0227e;
       
     }
+    
+    footer-bottom {
+        background-color: #761862;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+        font-family: poppins, sans-serif;
+    }
