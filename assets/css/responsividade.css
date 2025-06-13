@@ -671,7 +671,7 @@ dark-mode .coração .curtir {
 }
 
 .content-sobre h1{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .content-sobre h1 span {
@@ -679,11 +679,11 @@ dark-mode .coração .curtir {
 }
 
 .content-sobre p {
-    font-size: 16px;
+    font-size: 12px;
 }
 
  .btn-associado {
-   font-size: 13px;
+   font-size: 12px;
     padding: 8px 16px;
     width: 150px;
     height: 35px;
@@ -691,7 +691,7 @@ dark-mode .coração .curtir {
  }
 
  #estatuto h2 {
-    font-size: 24px;
+    font-size: 20px;
  }
 
 
@@ -701,7 +701,7 @@ dark-mode .coração .curtir {
 }
 
 #estatuto p {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 20px;
 }
 
@@ -734,12 +734,12 @@ dark-mode .coração .curtir {
 }
 
 .sobre2 .container-sobre h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .sobre2 .container-sobre p {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 20px;
 }
 
@@ -759,7 +759,7 @@ dark-mode .coração .curtir {
 }
 
 .galeria-section h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -772,7 +772,7 @@ dark-mode .coração .curtir {
 .galeria-section h4,
 .galeria-section p {
     color: #761862;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .galeria {
@@ -796,22 +796,25 @@ dark-mode .coração .curtir {
 
 
 .footer-section-logo img {
-    max-width: 130px;
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
 }
+
 
 .footer-section-logo p {
     margin-left: 20px;
 }
 
 .footer-section h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
     font-family: "Marcellus", serif;
 }
 
 .footer-section h2 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 10px;
+    margin-top: 10px;
     margin-right: 200px;
 }
 
@@ -822,14 +825,55 @@ dark-mode .coração .curtir {
 
 
 .footer-section h3 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     font-family: "Marcellus", serif;
     
 }
 
+.footer-section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-bottom p{
+    font-size: 0.8rem;
+    color: #761862;
+    margin-bottom: 10px;
+}
+
+.content-contato h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content-contato p {
+    font-size: 13px;
+}
+
+.content-contato {
+    padding: 20px;
+}
+
+.content-contato ul li {
+    font-size: 14px;
+}
+
+.btn-associar {
+    font-size: 13px;
+    padding: 10px 16px;
+    width: 150px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+}
 
 
 

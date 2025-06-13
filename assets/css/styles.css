@@ -696,6 +696,11 @@
      color: #761862;
  }
 
+ .footer-bottom a{
+     color: #761862;
+     text-decoration: none;
+ }
+
 
  /* ==========================
     ANIMAÇÃO DE FADE-IN
