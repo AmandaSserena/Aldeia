@@ -139,30 +139,29 @@
 ========================== */
 
 
- .banner {
+
+
+ .banner-sobre {
+    background: #f2bed4;
      position: relative;
      width: 100%;
-     height: 600px;
+     height: 500px;
      background-size: cover;
      background-position: center;
      transition: background-image 1s ease-in-out;
  }
 
- .banner {
-     transition: background-image 1s ease-in-out;
- }
 
-
- .overlay {
+ .logo-banner {
      position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     background: rgba(0, 0, 0, 0.5);
+     top: 20px;
+     left: 20px;
+     z-index: 1;
+     overflow: hidden;
  }
 
- .content {
+
+ .content-sobre {
      position: absolute;
      top: 50%;
      left: 50%;
@@ -171,14 +170,17 @@
      text-align: center;
  }
 
- .content h1 {
+
+ .content-sobre h1 {
      font-size: 32px;
  }
 
- .content p {
+
+ .content-sobre p {
      font-size: 18px;
      margin-top: 10px;
  }
+
 
  .buttons {
      position: absolute;
@@ -188,6 +190,7 @@
      justify-content: space-between;
  }
 
+
  .buttons button {
      background: rgba(255, 255, 255, 0.5);
      border: none;
@@ -196,74 +199,39 @@
      font-size: 20px;
  }
 
- .overlay {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     background-color: rgba(0, 0, 0, 0.5);
- }
 
- .banner h1 {
+ .banner-sobre h1 {
      color: white;
      font-size: 36px;
      z-index: 2;
      position: relative;
  }
 
- .banner p {
-     color: white;
+
+ .banner-sobre p {
+     color: #761862;
      font-size: 20px;
      z-index: 2;
      position: relative;
  }
 
- .setavolta,
- .setaavanca {
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
-     background: rgba(0, 0, 0, 0.5);
-     color: white;
-     padding: 15px;
-     cursor: pointer;
-     border-radius: 50%;
- }
 
-
- .setavolta {
-     left: 20px;
- }
-
- .setaavanca {
-     right: 20px;
- }
-
- .setavolta i,
- .setaavanca i {
-     font-size: 24px;
- }
-
- .content h1 {
-     font-size: 36px;
-     margin-bottom: 20px;
-     font-family: "Marcellus", serif;
- }
-
- .content span {
-     color: #f2bed4;
+ 
+ .content-sobre h1 {
      font-size: 36px;
      margin-bottom: 20px;
      font-family: "Marcellus", serif;
  }
 
 
- .content p {
+
+
+ .content-sobre p {
      font-size: 20px;
      margin-bottom: 20px;
      font-family: poppins, sans-serif;
  }
+
 
  .btn-associado {
      background: #761862;
@@ -275,6 +243,7 @@
      font-size: 18px;
  }
 
+
  .btn-associado {
      display: flex;
      justify-content: center;
@@ -283,16 +252,21 @@
      height: 42px;
      margin: 0 auto;
      font-family: poppins, sans-serif;
-     font-size: 14px;
+     font-size: 15px;
      font-weight: 500;
-
  }
+
 
  .btn-associado:hover {
-     background: #f2bed4;
-     color: #761862;
+         background-color: #ae2e81;
+     color: #f2bed4;
      text-decoration: none;
  }
+
+
+
+
+
 
 
 

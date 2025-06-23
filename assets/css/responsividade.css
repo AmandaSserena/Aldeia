@@ -167,6 +167,7 @@ body.dark-mode .setaavanca {
 body.dark-mode .btn-associado {
     background: #4b4848;
     color: #ffffff;
+     border: #ffffff 2px solid;
 }
 
 body.dark-mode .btn-associado:hover {
@@ -398,6 +399,11 @@ dark-mode .coração .curtir {
 #toggle-dark-mode i {
     color: #761862;
     font-size: 24px;
+}
+
+.body .dark-mode .contato-section {
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
 

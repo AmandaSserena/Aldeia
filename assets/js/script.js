@@ -51,10 +51,10 @@ window.addEventListener('load', checkFadeIn);
 window.onload = function() {
     const banner = document.getElementById("banner");
     const imagens = [
-        "./assets/img/banner1.webp",   
-        "./assets/img/banner2.webp",
-        "./assets/img/banner3.webp",
-        "./assets/img/banner4.webp",
+        "../img/banner1.webp",   
+        "../img/banner2.webp",
+        "../img/banner3.webp",
+        "../img/banner4.webp",
     ];
 
     let indexAtual = 0;
