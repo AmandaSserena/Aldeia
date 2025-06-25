@@ -406,6 +406,14 @@ dark-mode .coração .curtir {
     color: #ffffff;
 }
 
+.dark-mode .banner-sobre {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .banner-sobre p {
+    color: #ffffff;
+}
+
 
 /* ==========================
    RESPONSIVIDADE
@@ -592,6 +600,11 @@ dark-mode .coração .curtir {
         height: auto;
     }
 
+    .logo-sobre {
+        width: 200px;
+        height: auto;
+    }
+
 
     .content span {
         font-size: 24px;
@@ -703,7 +716,8 @@ dark-mode .coração .curtir {
     }
 
 .banner-sobre {
-    height: 300px;
+    height: 350px;
+
 }
 
 .content-sobre h1{
@@ -722,7 +736,6 @@ dark-mode .coração .curtir {
    font-size: 12px;
     padding: 8px 16px;
     width: 150px;
-    height: 35px;
     margin: 0 auto;
  }
 

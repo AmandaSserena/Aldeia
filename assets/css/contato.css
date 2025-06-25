@@ -430,6 +430,91 @@
  }
 
 
+ .formulario-section {
+  background-color: #761862;
+  padding: 40px 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-section h2 {
+  color: #f2bed4;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #761862;
+}
+
+.formulario-contato button {
+  background-color: #f2bed4;
+  color: #761862;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario-contato button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+
+
+    .mensagem-obrigado {
+      background-color: #f2bed4;
+      color: #761862;
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .mensagem-obrigado h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .mensagem-obrigado p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .mensagem-obrigado a {
+      background-color: #761862;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .mensagem-obrigado a:hover {
+      background-color: #5a104d;
+    }
+
 
 
  
