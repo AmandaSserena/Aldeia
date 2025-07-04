@@ -8,7 +8,7 @@
  }
 
  body {
-     background-color: #ffffff;
+     background-color: #f2bed4;
      color: #761862;
      text-align: center;
      transition: background 0.5s, color 0.5s;
@@ -46,7 +46,7 @@
 
 
  nav ul {
-     margin-right: 60px;
+     margin-left: 60px;
      list-style: none;
      display: flex;
      justify-content: center;
@@ -437,6 +437,7 @@
   color: white;
   text-align: center;
   margin: 40px auto;
+  margin-bottom: 50px;
   max-width: 700px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
@@ -514,6 +515,20 @@
     .mensagem-obrigado a:hover {
       background-color: #5a104d;
     }
+
+    h1 {
+     font-size: 36px;
+     margin-bottom: 20px;
+     margin-top: 50px;
+     font-family: "Marcellus", serif;
+    }
+
+    #form {
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-family: poppins, sans-serif;
+    }
+
 
 
 
