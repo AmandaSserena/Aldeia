@@ -437,6 +437,14 @@ dark-mode .coração .curtir {
     text-decoration: none;
 }
 
+.dark-mode h1 {
+    color: #ffffff;
+}
+
+.dark-mode p {
+    color: #ffffff;
+}
+
 
 
 /* ==========================
