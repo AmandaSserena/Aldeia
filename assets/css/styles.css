@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #fdfdfd;
     color: #761862;
     text-align: center;
     transition: background 0.5s, color 0.5s;
@@ -80,7 +80,7 @@ nav ul li a:hover {
     height: 42px;
     border-radius: 6px;
     background: #761862;
-    color: #ffffff;
+    color: #fdfdfd;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -165,7 +165,7 @@ nav ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #fdfdfd;
     text-align: center;
 }
 
@@ -176,7 +176,7 @@ nav ul li a:hover {
 
 
 .content-sobre p {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -212,14 +212,7 @@ nav ul li a:hover {
     font-size: 20px;
     z-index: 2;
     position: relative;
-}
-
-
-
-.content-sobre h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    font-family: "Marcellus", serif;
+    font-family: poppins, sans-serif;
 }
 
 
@@ -234,7 +227,7 @@ nav ul li a:hover {
 
 .btn-associado {
     background: #761862;
-    color: #ffffff;
+    color: #fdfdfd;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -264,7 +257,7 @@ nav ul li a:hover {
 
 #bnt-banner:hover {
     background: #ae2e81;
-    color: #ffffff;
+    color: #fdfdfd;
 }
 
 
@@ -379,7 +372,7 @@ section .card {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #fdfdfd;
     padding: 5vh;
 }
 
@@ -429,7 +422,7 @@ section .card {
     height: 42px;
     border-radius: 6px;
     background: #761862;
-    color: #ffffff;
+    color: #fdfdfd;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -575,7 +568,7 @@ footer .container {
     align-items: center;
     flex-wrap: wrap;
     max-width: 1100px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .footer-section-logo p {

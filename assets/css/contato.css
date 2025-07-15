@@ -82,7 +82,7 @@
      height: 42px;
      border-radius: 6px;
      background: #761862;
-     color: #ffffff;
+     color: #fdfdfd;
      font-family: 'Poppins', sans-serif;
      font-size: 15px;
      font-weight: 500;
@@ -165,7 +165,7 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     color: white;
+     color: #fdfdfd;
      text-align: center;
  }
 
@@ -180,14 +180,14 @@
 
 
  .banner-sobre h1 {
-     color: white;
+     color: #fdfdfd;
      font-size: 36px;
      z-index: 2;
      position: relative;
  }
 
  .banner-sobre p {
-     color: white;
+     color: #fdfdfd;
      font-size: 20px;
      z-index: 2;
      position: relative;
@@ -196,6 +196,7 @@
  
  .content-sobre h1 {
      font-size: 36px;
+     color: #fdfdfd;
      margin-bottom: 20px;
      font-family: "Marcellus", serif;
  }
@@ -210,6 +211,7 @@
 
  .content-sobre p {
      font-size: 20px;
+     color: #fdfdfd;
      margin-bottom: 20px;
      font-family: poppins, sans-serif;
  }
@@ -219,7 +221,7 @@
         SESSÃO DE CONTATO   
 ========================== */
 
-/* Estilo da seção de contato */
+
 .contato-section {
     position: relative;
     width: 100%;
@@ -228,7 +230,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #fdfdfd;
     padding: 60px 20px;
     overflow: hidden;
 }
@@ -280,7 +282,7 @@
 }
 
 .content-contato a {
-    color: #ffffff;
+    color: #fdfdfd;
     text-decoration: none;
 }
 
@@ -302,7 +304,7 @@
 }
 
 .btn-associado:hover {
-    background-color: #ffffff;
+    background-color: #fdfdfd;
     transform: scale(1.05);
 }
 
@@ -324,7 +326,7 @@
      align-items: center;
      flex-wrap: wrap;
      max-width: 1100px;
-     margin-bottom: 40px;
+     margin-bottom: 20px;
  }
 
  .footer-section-logo p {
@@ -434,7 +436,7 @@
   background-color: #761862;
   padding: 40px 20px;
   border-radius: 20px;
-  color: white;
+  color: #fdfdfd;
   text-align: center;
   margin: 40px auto;
   margin-bottom: 50px;
@@ -445,7 +447,7 @@
 .formulario-section h2 {
   color: #f2bed4;
   margin-bottom: 20px;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .formulario-contato {
@@ -477,7 +479,7 @@
 }
 
 .formulario-contato button:hover {
-  background-color: #ffffff;
+  background-color: #fdfdfd;
   transform: scale(1.05);
 }
 
@@ -612,4 +614,18 @@
      border-top: 2px solid;
      border-image: linear-gradient(to right, transparent, #761862, transparent) 60;
      width: 100%;
+ }
+
+ h1 {
+     font-size: 30px;
+     margin-bottom: 20px;
+     font-family: "Marcellus", serif;
+     color: #761862;
+ }
+
+ section p {
+     font-size: 18px;
+     margin-bottom: 20px;
+     font-family: poppins, sans-serif;
+     color: #761862;
  }

@@ -354,7 +354,7 @@ dark-mode .coração .curtir {
 }
 
 .dark-mode section {
-    background-color: #1a1a1a;
+    background-color: #1e1e1e;
 }
 
 .dark-mode .footer-bottom p {
@@ -414,6 +414,29 @@ dark-mode .coração .curtir {
 .dark-mode .banner-sobre p {
     color: #ffffff;
 }
+
+.dark-mode .container-historia p {
+    color: #ffffff;
+}
+
+.dark-mode .container-historia h2 {
+    color: #ffffff;
+}
+
+.dark-mode .formulario-section h2 {
+    color: #ffffff;
+}
+
+.dark-mode .formulario-contato button {
+    background: #4b4848;
+    color: #ffffff;
+}
+
+.dark-mode #footer {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 
 /* ==========================
@@ -864,6 +887,7 @@ dark-mode .coração .curtir {
         align-items: flex-start;
     }
 
+
     .footer-section {
         text-align: center;
         margin: 0 auto;
@@ -879,6 +903,7 @@ dark-mode .coração .curtir {
 
     .footer-section-logo p {
         margin-left: 20px;
+        font-size: 14px;
     }
 
     .footer-section h3 {
@@ -887,7 +912,7 @@ dark-mode .coração .curtir {
     }
 
     .footer-section h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 10px;
         margin-top: 10px;
         margin-right: 200px;
@@ -900,14 +925,14 @@ dark-mode .coração .curtir {
 
 
     .footer-section h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 10px;
         font-family: "Marcellus", serif;
 
     }
 
     .footer-section p {
-        font-size: 1rem;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 
@@ -962,7 +987,6 @@ dark-mode .coração .curtir {
 
     #contato {
         padding: 20px;
-        background: #1e1e1e;
     }
 
     .formulario-section h2 {
@@ -985,7 +1009,7 @@ dark-mode .coração .curtir {
         border: 1px solid #ccc;
     }
 
-.formulario-contato button {
+    .formulario-contato button {
         font-size: 14px;
         padding: 10px 10px;
     }
@@ -999,6 +1023,26 @@ dark-mode .coração .curtir {
         margin-bottom: 10px;
         border-radius: 5px;
         border: 1px solid #ccc;
+    }
+
+    .container-historia p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .container-historia h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .formulario-section h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        color: #ffffff;
+        text-decoration: none;
     }
 
 }
