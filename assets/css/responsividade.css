@@ -7,7 +7,7 @@ body.dark-mode {
     color: #ffffff;
 }
 
-/* Elementos gerais */
+
 body.dark-mode header,
 body.dark-mode .cards-container,
 body.dark-mode .podcast-section,
@@ -17,12 +17,11 @@ body.dark-mode footer {
     background-color: #1e1e1e;
 }
 
-/* Links do nav */
 body.dark-mode nav ul li a {
     color: #f2bed4;
 }
 
-/* Botão de contato */
+
 body.dark-mode .btn-contato {
     background: #f2bed4;
     color: #761862;
@@ -33,7 +32,7 @@ body.dark-mode .btn-contato:hover {
     color: #f2bed4;
 }
 
-/* Banner */
+
 body.dark-mode .banner {
     background: url('https://i.imgur.com/3Z5k7bH.jpg') no-repeat center center;
     background-size: cover;
@@ -163,7 +162,7 @@ body.dark-mode .setaavanca {
     color: #ffffff;
 }
 
-/* Botão associado */
+
 body.dark-mode .btn-associado {
     background: #4b4848;
     color: #ffffff;
@@ -181,7 +180,7 @@ body.dark-mode .btn-listen {
 }
 
 
-/* Cards container */
+
 body.dark-mode .cards-container .card,
 body.dark-mode .card2 {
     background: rgba(255, 255, 255, 0.2);
@@ -193,7 +192,7 @@ body.dark-mode .card2 p {
     color: #ffffff;
 }
 
-/* Links dos cards */
+
 body.dark-mode .cards-container .card a {
     background: #fffbfd;
     color: #e0e0e0;
@@ -208,7 +207,7 @@ body.dark-mode .cards-container .card a:hover {
     color: #ffffff;
 }
 
-/* Podcast */
+
 body.dark-mode .podcast-text {
     color: #ffffff;
 }
@@ -217,7 +216,7 @@ body.dark-mode .podcast-video iframe {
     border: 2px solid #ffffff;
 }
 
-/* Footer */
+
 body.dark-mode footer {
     background: #1e1e1e;
     color: #ffffff;
@@ -260,7 +259,7 @@ body.dark-mode .contact-item i {
     color: #ffffff;
 }
 
-/* Divisor decorativo */
+
 body.dark-mode .dgdivisor {
     border-top: 2px solid;
     border-image: linear-gradient(to right, transparent, #ffffff, transparent) 60;

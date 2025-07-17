@@ -296,9 +296,6 @@ nav ul li a:hover {
 }
 
 
-
-/*historia*/
-
 .historia-section {
     background-color: #fdfdfd;
     padding: 50px 0;
@@ -403,7 +400,6 @@ nav ul li a:hover {
     gap: 40px;
     width: 100%;
     flex-wrap: wrap;
-    /* Responsivo: quebra em telas pequenas */
 }
 
 .sobre2 .image {
@@ -449,11 +445,8 @@ nav ul li a:hover {
 
 .sobre2 ul {
     list-style-type: disc;
-    /* Adiciona marcadores */
     padding-left: 20px;
-    /* Espaçamento para os marcadores */
     text-align: left;
-    /* Alinha o texto à esquerda */
 }
 
 
