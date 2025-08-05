@@ -1,6 +1,6 @@
 # Instituto Somos Aldeia | Website
 
-Este repositório contém o site do **Instituto Somos Aldeia**, desenvolvido com **HTML**, **CSS** e **JavaScript puro**, com todos os arquivos organizados na pasta `assents/`.  
+Este repositório contém o site do **Instituto Somos Aldeia**, desenvolvido com **HTML**, **CSS** e **JavaScript puro**.
 O objetivo é apresentar o grupo de apoio às mães atípicas e as iniciativas da organização.  
 
 🔗 **Acesse online:** [institutosomosaldeia.vercel.app](https://institutosomosaldeia.vercel.app/)  
@@ -11,7 +11,7 @@ O objetivo é apresentar o grupo de apoio às mães atípicas e as iniciativas d
 
 - **HTML5** — estrutura do site  
 - **CSS3** — estilização visual e responsiva  
-- **JavaScript (Vanilla)** — interações simples  
+- **JavaScript** — interações simples  
 - **Vercel** — deploy e hospedagem automática
 
 ---
