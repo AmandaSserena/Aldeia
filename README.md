@@ -5,6 +5,9 @@ O objetivo é apresentar o grupo de apoio às mães atípicas e as iniciativas d
 
 🔗 **Acesse online:** [institutosomosaldeia.vercel.app](https://institutosomosaldeia.vercel.app/)  
 
+![Print da aplicação](assets/img/Print.png)
+
+
 ---
 
 ## 🧱 Tecnologias utilizadas
