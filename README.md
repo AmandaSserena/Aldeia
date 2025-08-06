@@ -14,7 +14,7 @@ O objetivo é apresentar o grupo de apoio às mães atípicas e as iniciativas d
 
 - **HTML5** — estrutura do site  
 - **CSS3** — estilização visual e responsiva  
-- **JavaScript** — interações simples  
+- **JavaScript Vanilla** — interações simples  
 - **Vercel** — deploy e hospedagem automática
 
 ---
