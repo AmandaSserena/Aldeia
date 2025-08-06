@@ -23,16 +23,20 @@ O objetivo é apresentar o grupo de apoio às mães atípicas e as iniciativas d
 
 ```
 
-/
+├── index.html                 # Página inicial
 ├── assents/
 │   ├── html/
-│   │   └── index.html         # Página principal
+│   │   ├── contato.html       # Página de contato
+│   │   ├── sobre.html         # Página sobre
+│   │   └── obrigado.html      # Página de agradecimento
 │   ├── css/
 │   │   └── style.css          # Estilos do site
 │   ├── js/
 │   │   └── script.js          # Scripts JavaScript
-│   └── img/                   # Imagens e logos usados
+│   └── img/
+│       └── Print.png          # Imagens e logos usados
 └── README.md
+
 
 ````
 
