@@ -5,13 +5,16 @@ O objetivo é apresentar o grupo de apoio às mães atípicas e as iniciativas d
 
 🔗 **Acesse online:** [institutosomosaldeia.vercel.app](https://institutosomosaldeia.vercel.app/)  
 
+![Print da aplicação](assets/img/Print.png)
+
+
 ---
 
 ## 🧱 Tecnologias utilizadas
 
 - **HTML5** — estrutura do site  
 - **CSS3** — estilização visual e responsiva  
-- **JavaScript** — interações simples  
+- **JavaScript Vanilla** — interações simples  
 - **Vercel** — deploy e hospedagem automática
 
 ---
@@ -20,16 +23,20 @@ O objetivo é apresentar o grupo de apoio às mães atípicas e as iniciativas d
 
 ```
 
-/
+├── index.html                 # Página inicial
 ├── assents/
 │   ├── html/
-│   │   └── index.html         # Página principal
+│   │   ├── contato.html       # Página de contato
+│   │   ├── sobre.html         # Página sobre
+│   │   └── obrigado.html      # Página de agradecimento
 │   ├── css/
 │   │   └── style.css          # Estilos do site
 │   ├── js/
 │   │   └── script.js          # Scripts JavaScript
-│   └── img/                   # Imagens e logos usados
+│   └── img/
+│       └── Print.png          # Imagens e logos usados
 └── README.md
+
 
 ````
 
